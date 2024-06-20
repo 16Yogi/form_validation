@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="index.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-form">
+        <div class="child-form">
+            <div class="wrap">
+                <form action="submit.html" onsubmit="return validation()">
+                    <div class="form-body">
+                        <div class="form-head">
+                            <img src="img/user-128-32.png" alt="">
+                            <h3>Sing up</h3>
+                        </div>
+                        <div class="form-item">
+                            <p>Full Name</p>
+                            <input type="text" placeholder="Full Name" id="full-name" required>
+                        </div>
+                        <div class="form-item">
+                            <p>Mobile</p>
+                            <input type="text" placeholder="Mobile" id="mobile" required>
+                        </div>
+                        <div class="form-item">
+                            <p>Email</p>
+                            <input type="email" placeholder="Email" id="email" required>
+                        </div>
+                        <div class="form-item">
+                            <p>Password</p>
+                            <input type="password" placeholder="Password" id="password" required>
+                        </div>
+                        <div class="form-item">
+                            <p>Confirm-Password</p>
+                            <input type="password" placeholder="Confirm-Password" id="repassword" required>
+                        </div>
+                        <div class="form-footer">
+                            <div class="footer-item">
+                                <button value="submit" type="submit">Sing-up</button>
+                            </div>
+                            <div class="footer-item">
+                                <a href="">Login</a>
+                            </div>
+                        </div>
+                        <div class="form-item">
+                            <a href="">Forget Password</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- javaScript link -->
+    <script src="index.js"></script>
+</body>
+</html>

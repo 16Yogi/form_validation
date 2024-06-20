@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    background-color: rgba(250, 247, 247, 0.836);
+
+}
+.main-form{
+    height: auto;
+    width: 100%;
+}
+.main-form .child-form{
+    height: auto;
+    width: 100%;
+    padding: 75px 0;
+}
+.main-form .child-form .wrap{
+    height: auto;
+    width: 25%;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* background-color: rgb(219, 216, 216); */
+}
+.main-form .child-form .wrap .form-body{
+    padding: 0 18px;
+}
+.main-form .child-form .wrap .form-body .form-head{
+    text-align: center;
+}
+.main-form .child-form .wrap .form-body .form-head h3{
+    text-align: center;
+    font-weight: 700;
+}
+.main-form .child-form .wrap .form-body .form-item p{
+    font-weight: 400;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 0;
+}
+.main-form .child-form .wrap .form-body .form-item input{
+    height: 23px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+    padding: 4px;
+}
+.main-form .child-form .wrap .form-body .form-footer{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    padding: 15px 0;
+}
+.main-form .child-form .wrap .form-body .form-footer .footer-item{
+    height: auto;
+    width: 50%;
+    /* text-align: center; */
+}
+.main-form .child-form .wrap .form-body .form-footer .footer-item:nth-child(2){
+    text-align: right;
+}
+.main-form .child-form .wrap .form-body .form-footer .footer-item button{
+    height: 30px;
+    width: 80%;
+    border: none;
+    outline: none;
+    padding: 5px 8px;
+    border-radius: 3px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: rgb(95, 110, 248);
+}
+.main-form .child-form .wrap .form-body .form-footer .footer-item a{
+   text-decoration: none;
+   font-weight: 500;
+   font-size: 14px;
+   color: blue; 
+}
+.main-form .child-form .wrap .form-body .form-item a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    color: blue;  
+}
